@@ -37,6 +37,16 @@ export const pagesComponents = {
   "v-5e3bb631": defineAsyncComponent(() => import(/* webpackChunkName: "v-5e3bb631" */"D:/BaiduNetdiskDownload/Webpack5/doc/webpack_docs/docs/.vuepress/.temp/pages/base/server.html.vue")),
   // path: /base/summary.html
   "v-ce2194d0": defineAsyncComponent(() => import(/* webpackChunkName: "v-ce2194d0" */"D:/BaiduNetdiskDownload/Webpack5/doc/webpack_docs/docs/.vuepress/.temp/pages/base/summary.html.vue")),
+  // path: /intro/asset.html
+  "v-0670fc65": defineAsyncComponent(() => import(/* webpackChunkName: "v-0670fc65" */"D:/BaiduNetdiskDownload/Webpack5/doc/webpack_docs/docs/.vuepress/.temp/pages/intro/asset.html.vue")),
+  // path: /intro/group.html
+  "v-581e5b94": defineAsyncComponent(() => import(/* webpackChunkName: "v-581e5b94" */"D:/BaiduNetdiskDownload/Webpack5/doc/webpack_docs/docs/.vuepress/.temp/pages/intro/group.html.vue")),
+  // path: /intro/learn.html
+  "v-7d0ce4de": defineAsyncComponent(() => import(/* webpackChunkName: "v-7d0ce4de" */"D:/BaiduNetdiskDownload/Webpack5/doc/webpack_docs/docs/.vuepress/.temp/pages/intro/learn.html.vue")),
+  // path: /intro/pre.html
+  "v-10b408dc": defineAsyncComponent(() => import(/* webpackChunkName: "v-10b408dc" */"D:/BaiduNetdiskDownload/Webpack5/doc/webpack_docs/docs/.vuepress/.temp/pages/intro/pre.html.vue")),
+  // path: /intro/
+  "v-f9e30908": defineAsyncComponent(() => import(/* webpackChunkName: "v-f9e30908" */"D:/BaiduNetdiskDownload/Webpack5/doc/webpack_docs/docs/.vuepress/.temp/pages/intro/index.html.vue")),
   // path: /origin/loader.html
   "v-1cfd2df6": defineAsyncComponent(() => import(/* webpackChunkName: "v-1cfd2df6" */"D:/BaiduNetdiskDownload/Webpack5/doc/webpack_docs/docs/.vuepress/.temp/pages/origin/loader.html.vue")),
   // path: /origin/plugin.html
@@ -53,16 +63,6 @@ export const pagesComponents = {
   "v-2a04a4a2": defineAsyncComponent(() => import(/* webpackChunkName: "v-2a04a4a2" */"D:/BaiduNetdiskDownload/Webpack5/doc/webpack_docs/docs/.vuepress/.temp/pages/project/summary.html.vue")),
   // path: /project/vue-cli.html
   "v-04c1b7cf": defineAsyncComponent(() => import(/* webpackChunkName: "v-04c1b7cf" */"D:/BaiduNetdiskDownload/Webpack5/doc/webpack_docs/docs/.vuepress/.temp/pages/project/vue-cli.html.vue")),
-  // path: /intro/asset.html
-  "v-0670fc65": defineAsyncComponent(() => import(/* webpackChunkName: "v-0670fc65" */"D:/BaiduNetdiskDownload/Webpack5/doc/webpack_docs/docs/.vuepress/.temp/pages/intro/asset.html.vue")),
-  // path: /intro/group.html
-  "v-581e5b94": defineAsyncComponent(() => import(/* webpackChunkName: "v-581e5b94" */"D:/BaiduNetdiskDownload/Webpack5/doc/webpack_docs/docs/.vuepress/.temp/pages/intro/group.html.vue")),
-  // path: /intro/learn.html
-  "v-7d0ce4de": defineAsyncComponent(() => import(/* webpackChunkName: "v-7d0ce4de" */"D:/BaiduNetdiskDownload/Webpack5/doc/webpack_docs/docs/.vuepress/.temp/pages/intro/learn.html.vue")),
-  // path: /intro/pre.html
-  "v-10b408dc": defineAsyncComponent(() => import(/* webpackChunkName: "v-10b408dc" */"D:/BaiduNetdiskDownload/Webpack5/doc/webpack_docs/docs/.vuepress/.temp/pages/intro/pre.html.vue")),
-  // path: /intro/
-  "v-f9e30908": defineAsyncComponent(() => import(/* webpackChunkName: "v-f9e30908" */"D:/BaiduNetdiskDownload/Webpack5/doc/webpack_docs/docs/.vuepress/.temp/pages/intro/index.html.vue")),
   // path: /senior/enhanceExperience.html
   "v-7964f787": defineAsyncComponent(() => import(/* webpackChunkName: "v-7964f787" */"D:/BaiduNetdiskDownload/Webpack5/doc/webpack_docs/docs/.vuepress/.temp/pages/senior/enhanceExperience.html.vue")),
   // path: /senior/liftingSpeed.html
