@@ -1,0 +1,39 @@
+# 该workflow的名称，可以随意填写
+name: Build And Deploy To Github Pages
+
+# workflow的触发事件，这里代表main分支的push事件触发
+on:
+  push:
+    branches: [ main ]
+
+# 任务
+jobs:
+  # build-and-deploy 为任务的ID
+  build-and-deploy:
+    # 运行所需要的环境
+    runs-on: ubuntu-latest 
+
+    steps:
+      # 步骤名
+      - name: Checkout
+        # 使用的actions脚本，这里是官方提供的获取源码脚本
+        uses: actions/checkout@v3
+
+      # 执行npm脚本打包项目
+      - name: Install and Build
+        run: |
+          npm install --force
+          npm run build
+      
+      # 执行crazy-max/ghaction-github-pages将项目发布到Github Pages
+      - name: Deploy to GitHub Pages
+        if: success()
+        uses: crazy-max/ghaction-github-pages@v3
+        with:
+   # 发布到的分支
+          target_branch: gh-pages
+   # 发布到的目录
+          build_dir: docs/.vuepress/dist
+        env:
+  # 关联的token，这里填写之前创建的action变量
+          GITHUB_TOKEN: ${{ secrets.VUETOKEN }}
