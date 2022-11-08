@@ -22,6 +22,7 @@ jobs:
       # 执行npm脚本打包项目
       - name: Install and Build
         run: |
+          npm install -g vuepress
           npm install --force
           npm run build
       
