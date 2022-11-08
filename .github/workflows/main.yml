@@ -22,8 +22,9 @@ jobs:
       # 执行npm脚本打包项目
       - name: Install and Build
         run: |
+          npm install -g vuepress
           npm install --force
-          npm run build
+          vuepress build
       
       # 执行crazy-max/ghaction-github-pages将项目发布到Github Pages
       - name: Deploy to GitHub Pages
